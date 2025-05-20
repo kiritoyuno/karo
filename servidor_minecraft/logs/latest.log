@@ -7841,3 +7841,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanis
 [20May2025 23:19:22.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Creative Mode]
 [20May2025 23:19:47.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
 [20May2025 23:19:54.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Creative Mode]
+[20May2025 23:24:15.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Removed every effect from fablex39]
+[20May2025 23:28:42.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Removed every effect from fablex39]
+[20May2025 23:29:55.948] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fablex39 lost connection: Timed out
+[20May2025 23:29:55.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 left the game
