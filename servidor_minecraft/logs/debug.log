@@ -23825,3 +23825,25 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanis
 [20May2025 22:50:49.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 died
 [20May2025 22:50:49.132] [Server thread/DEBUG] [tombstone/]: A new grave of the player fablex39 was created at position [x:120, y:62, z:-19, dim:minecraft:overworld]
 [20May2025 22:50:49.170] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:51:24.049] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kiritogamericrac lost connection: Disconnected
+[20May2025 22:51:24.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac left the game
+[20May2025 22:51:28.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:51:32.645] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:51:32.661] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:51:39.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Itznotme's game mode to Survival Mode]
+[20May2025 22:51:59.754] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:51:59.765] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:52:16.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 was slain by Dread Hound
+[20May2025 22:52:16.411] [Server thread/DEBUG] [tombstone/]: A new grave of the player fablex39 was created at position [x:120, y:61, z:-20, dim:minecraft:overworld]
+[20May2025 22:52:29.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:52:52.202] [Server thread/DEBUG] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: legendarysurvivaloverhaul:inject/entities/drowned
+[20May2025 22:52:52.202] [Server thread/DEBUG] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: gen loot : [1 rotten_flesh]
+[20May2025 22:52:57.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported fablex39 to Itznotme]
+[20May2025 22:54:31.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Spectator Mode]
+[20May2025 22:54:34.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Creative Mode]
+[20May2025 22:56:32.645] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:56:32.658] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:56:38.705] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fablex39 lost connection: Timed out
+[20May2025 22:56:38.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 left the game
+[20May2025 22:57:29.601] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme lost connection: Disconnected
+[20May2025 22:57:29.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme left the game

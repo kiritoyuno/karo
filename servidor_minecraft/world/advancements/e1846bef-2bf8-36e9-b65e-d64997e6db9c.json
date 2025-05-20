@@ -205,6 +205,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-05-20 22:46:37 +0000",
       "cooked_beef": "2025-05-20 22:03:09 +0000"
     },
     "done": false
@@ -212,6 +213,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2025-05-20 22:08:25 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/combine_in_inventory": {
+    "criteria": {
+      "coded_trigger": "2025-05-20 22:48:37 +0000"
     },
     "done": true
   },
@@ -239,9 +246,27 @@
     },
     "done": false
   },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2025-05-20 22:48:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:zombie": "2025-05-20 22:45:27 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/easy_opening": {
+    "criteria": {
+      "coded_trigger": "2025-05-20 22:49:11 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_grave_key": {
+    "criteria": {
+      "has_upgraded_grave_key": "2025-05-20 22:48:37 +0000"
     },
     "done": true
   },
