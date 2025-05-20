@@ -7682,3 +7682,51 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanis
 [20May2025 22:09:59.971] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
 [20May2025 22:09:59.979] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
 [20May2025 22:10:07.113] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=123, y=64, z=-2} BlockPos{x=124, y=64, z=-2}
+[20May2025 22:12:05.612] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fablex39 lost connection: Timed out
+[20May2025 22:12:05.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 left the game
+[20May2025 22:13:09.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme has made the advancement [The right tool for the job]
+[20May2025 22:14:34.300] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:14:34.314] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:15:04.629] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fablex39[/127.166.196.199:46015] logged in with entity id 8931 at (126.34317713426877, 64.0, -16.036156269601197)
+[20May2025 22:15:04.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 joined the game
+[20May2025 22:15:08.611] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:15:08.620] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:15:10.698] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:15:10.717] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:15:38.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac was slain by Wilted
+[20May2025 22:15:59.966] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme moved wrongly!
+[20May2025 22:16:00.962] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme moved wrongly!
+[20May2025 22:16:01.960] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme moved wrongly!
+[20May2025 22:16:03.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme moved wrongly!
+[20May2025 22:16:03.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme was slain by Wilted
+[20May2025 22:16:08.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 suffocated in a wall
+[20May2025 22:17:11.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Itznotme's game mode to Survival Mode
+[20May2025 22:17:29.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme has reached the goal [Here They Come]
+[20May2025 22:17:30.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fablex39 moved too quickly! 10.581314908186613,0.0,0.8279389852448382
+[20May2025 22:17:30.895] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:17:30.912] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:17:37.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme was slain by Wilted
+[20May2025 22:17:42.309] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme moved too quickly! 10.25326249921487,0.0,2.4967386290034383
+[20May2025 22:17:44.158] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme moved too quickly! 10.850386332200344,0.0,-0.9965159408547795
+[20May2025 22:17:46.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme moved too quickly! 10.308623670370267,0.0,-2.75777705733693
+[20May2025 22:17:49.281] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Itznotme moved too quickly! 9.3996220123381,-0.15000000596046448,-4.438302584569893
+[20May2025 22:17:58.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:17:58.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Itznotme's game mode to Survival Mode]
+[20May2025 22:18:02.596] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:18:02.616] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:18:22.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Spectator Mode]
+[20May2025 22:18:24.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Creative Mode]
+[20May2025 22:18:58.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set the time to 1000]
+[20May2025 22:19:03.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:19:14.149] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:19:14.161] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:19:15.850] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:19:15.863] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:19:27.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Kiritogamericrac to fablex39]
+[20May2025 22:19:36.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 was slain by The Moonflower
+[20May2025 22:19:48.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:20:02.644] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:20:02.663] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:20:24.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 was slain by Spider
+[20May2025 22:20:34.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:20:43.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Kiritogamericrac to fablex39]

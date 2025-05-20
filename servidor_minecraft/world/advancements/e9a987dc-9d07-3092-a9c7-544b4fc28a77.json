@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-05-20 22:07:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2025-05-20 21:52:42 +0000"
@@ -140,6 +146,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-05-20 22:04:06 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:realistic_forging": {
+    "criteria": {
+      "realistic_forging_0": "2025-05-20 22:07:27 +0000"
     },
     "done": true
   },

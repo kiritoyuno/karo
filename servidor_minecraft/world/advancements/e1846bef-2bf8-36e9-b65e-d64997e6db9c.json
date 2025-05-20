@@ -149,6 +149,42 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-05-20 21:56:20 +0000"
+    },
+    "done": false
+  },
+  "realisticforgingores:hot_iron_burn": {
+    "criteria": {
+      "hot_iron_burn_0": "2025-05-20 21:57:38 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2025-05-20 21:59:29 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2025-05-20 21:59:41 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-05-20 21:59:41 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2025-05-20 21:59:42 +0000"
+    },
+    "done": true
+  },
   "realisticforgingores:getting_big_stone": {
     "criteria": {
       "getting_big_stone_0": "2025-05-20 22:01:46 +0000"
@@ -161,27 +197,9 @@
     },
     "done": true
   },
-  "tombstone:recipes/from_grave_dust": {
+  "realisticforgingores:realistic_forging": {
     "criteria": {
-      "has_ingredient": "2025-05-20 21:59:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:river": "2025-05-20 21:56:20 +0000"
-    },
-    "done": false
-  },
-  "tombstone:adventure/cancel_ghostly_shape": {
-    "criteria": {
-      "coded_trigger": "2025-05-20 21:59:41 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/chain_death": {
-    "criteria": {
-      "coded_trigger": "2025-05-20 21:59:29 +0000"
+      "realistic_forging_0": "2025-05-20 22:02:19 +0000"
     },
     "done": true
   },
@@ -191,21 +209,9 @@
     },
     "done": false
   },
-  "realisticforgingores:realistic_forging": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "realistic_forging_0": "2025-05-20 22:02:19 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_knowledge": {
-    "criteria": {
-      "coded_trigger": "2025-05-20 21:59:41 +0000"
-    },
-    "done": true
-  },
-  "realisticforgingores:hot_iron_burn": {
-    "criteria": {
-      "hot_iron_burn_0": "2025-05-20 21:57:38 +0000"
+      "killed_something": "2025-05-20 22:08:25 +0000"
     },
     "done": true
   },
