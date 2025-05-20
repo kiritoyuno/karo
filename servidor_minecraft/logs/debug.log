@@ -23778,3 +23778,50 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanis
 [20May2025 22:39:27.968] [Server thread/DEBUG] [tombstone/]: A new grave of the player Kiritogamericrac was created at position [x:-27, y:21, z:-71, dim:minecraft:overworld]
 [20May2025 22:39:33.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Kiritogamericrac's game mode to Survival Mode]
 [20May2025 22:39:34.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Kiritogamericrac to fablex39]
+[20May2025 22:41:32.689] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:41:32.708] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:41:40.425] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:41:40.467] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:42:47.562] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:42:47.571] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:43:02.658] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:43:02.669] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:44:00.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported fablex39 to Itznotme]
+[20May2025 22:44:17.161] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:44:17.170] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:44:18.825] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:44:18.857] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:45:10.417] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:45:10.428] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:45:27.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has made the advancement [Monster Hunter]
+[20May2025 22:45:40.531] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:45:40.557] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:45:51.158] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:45:51.167] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:45:51.262] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:45:51.271] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:46:32.673] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:46:32.697] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:46:48.868] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:46:48.912] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:46:51.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme suffocated in a wall whilst fighting The Distant Demon
+[20May2025 22:46:51.055] [Server thread/DEBUG] [tombstone/]: A new grave of the player Itznotme was created at position [x:-27, y:21, z:-68, dim:the_silence:prueba_bolsillo]
+[20May2025 22:46:51.152] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:46:52.352] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:46:52.381] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:46:53.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 suffocated in a wall
+[20May2025 22:46:53.401] [Server thread/DEBUG] [tombstone/]: A new grave of the player fablex39 was created at position [x:-26, y:21, z:-71, dim:the_silence:prueba_bolsillo]
+[20May2025 22:46:53.470] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:47:57.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:48:01.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Creative Mode]
+[20May2025 22:48:37.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has made the advancement [Quickly Applied]
+[20May2025 22:48:37.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has made the advancement [The Most Useful Key]
+[20May2025 22:48:41.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:48:46.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has reached the goal [A Fast Comeback]
+[20May2025 22:49:11.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has reached the goal [Easy Opening]
+[20May2025 22:49:12.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fablex39 moved too quickly! 41.5,40.9375,54.5
+[20May2025 22:50:48.126] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:50:48.164] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:50:49.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 died
+[20May2025 22:50:49.132] [Server thread/DEBUG] [tombstone/]: A new grave of the player fablex39 was created at position [x:120, y:62, z:-19, dim:minecraft:overworld]
+[20May2025 22:50:49.170] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved

@@ -169,6 +169,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-05-20 22:44:42 +0000",
+      "cooked_mutton": "2025-05-20 22:44:11 +0000",
       "cooked_beef": "2025-05-20 21:56:49 +0000",
       "beef": "2025-05-20 22:08:43 +0000",
       "cooked_chicken": "2025-05-20 21:49:38 +0000"
@@ -211,6 +213,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-05-20 22:37:22 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2025-05-20 21:42:04 +0000"
@@ -238,6 +246,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-05-20 21:46:19 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2025-05-20 22:37:22 +0000"
     },
     "done": true
   },
