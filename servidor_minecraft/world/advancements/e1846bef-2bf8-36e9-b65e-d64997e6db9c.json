@@ -215,5 +215,11 @@
     },
     "done": true
   },
+  "realisticforgingores:smithing_hammer_achievement": {
+    "criteria": {
+      "smithing_hammer_achievement_0": "2025-05-20 22:24:47 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

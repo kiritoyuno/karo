@@ -7730,3 +7730,23 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanis
 [20May2025 22:20:24.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 was slain by Spider
 [20May2025 22:20:34.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
 [20May2025 22:20:43.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Kiritogamericrac to fablex39]
+[20May2025 22:22:23.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Kiritogamericrac to fablex39]
+[20May2025 22:22:25.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Kiritogamericrac's game mode to Survival Mode]
+[20May2025 22:23:25.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme has made the advancement [Acquire Hardware]
+[20May2025 22:23:25.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme has made the advancement [Realistic Forging]
+[20May2025 22:24:26.110] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:24:26.122] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:24:29.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac burned to death
+[20May2025 22:24:29.118] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:24:30.714] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=25, y=70, z=-8}
+[20May2025 22:24:47.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has made the advancement [The right tool for the job]
+[20May2025 22:24:51.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Kiritogamericrac's game mode to Survival Mode]
+[20May2025 22:24:52.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Kiritogamericrac to fablex39]
+[20May2025 22:26:44.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac has made the advancement [It's temporary...]
+[20May2025 22:28:03.063] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:28:03.073] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:28:11.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac was shot by Skeleton
+[20May2025 22:28:28.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Kiritogamericrac to fablex39]
+[20May2025 22:28:32.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Kiritogamericrac's game mode to Survival Mode]
+[20May2025 22:28:33.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Kiritogamericrac to fablex39]
+[20May2025 22:29:05.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has reached the goal [Flowers of the Savanna]
