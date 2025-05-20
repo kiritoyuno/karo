@@ -23292,3 +23292,104 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanis
 [20May2025 21:59:57.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac has made the advancement [jury-rigged]
 [20May2025 22:00:17.762] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
 [20May2025 22:00:17.774] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:01:27.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Spectator Mode]
+[20May2025 22:01:27.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:01:28.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Creative Mode]
+[20May2025 22:01:30.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme has made the advancement [Monster Hunter]
+[20May2025 22:01:30.324] [Server thread/DEBUG] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: legendarysurvivaloverhaul:inject/entities/drowned
+[20May2025 22:01:30.324] [Server thread/DEBUG] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: gen loot : [2 rotten_flesh]
+[20May2025 22:01:32.691] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:01:32.707] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:01:37.931] [Server thread/DEBUG] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: legendarysurvivaloverhaul:inject/entities/drowned
+[20May2025 22:01:37.931] [Server thread/DEBUG] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: gen loot : [0 air]
+[20May2025 22:01:45.749] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:01:45.773] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:01:46.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has made the advancement [It's temporary...]
+[20May2025 22:01:47.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:01:53.360] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:01:53.376] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:02:04.821] [Server thread/DEBUG] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: legendarysurvivaloverhaul:inject/entities/drowned
+[20May2025 22:02:04.821] [Server thread/DEBUG] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: gen loot : [2 rotten_flesh]
+[20May2025 22:02:19.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has made the advancement [Acquire Hardware]
+[20May2025 22:02:19.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 has made the advancement [Realistic Forging]
+[20May2025 22:02:28.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Creative Mode]
+[20May2025 22:02:42.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:02:44.566] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:02:44.576] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:02:48.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme burned to death
+[20May2025 22:02:48.967] [Server thread/DEBUG] [tombstone/]: A new grave of the player Itznotme was created at position [x:117, y:60, z:-21, dim:minecraft:overworld]
+[20May2025 22:02:48.979] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:02:51.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac was pierced by Necromancer's icicle
+[20May2025 22:02:51.023] [Server thread/DEBUG] [tombstone/]: A new grave of the player Kiritogamericrac was created at position [x:-21, y:23, z:-86, dim:minecraft:overworld]
+[20May2025 22:02:53.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported 3 entities to fablex39]
+[20May2025 22:02:59.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Itznotme's game mode to Survival Mode]
+[20May2025 22:02:59.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Kiritogamericrac's game mode to Survival Mode]
+[20May2025 22:03:02.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported 3 entities to fablex39]
+[20May2025 22:03:23.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac has made the advancement [YOU DID IT TOO FAST]
+[20May2025 22:03:32.214] [Server thread/WARN] [tombstone/]: The death event of the player fablex39 was canceled by another mod
+[20May2025 22:03:32.224] [Server thread/INFO] [tombstone/]: The player fablex39 has successfully been saved
+[20May2025 22:04:28.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Creative Mode]
+[20May2025 22:04:34.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set own game mode to Survival Mode]
+[20May2025 22:04:40.656] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:04:40.667] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:05:09.362] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:05:09.373] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:05:16.460] [Server thread/WARN] [tombstone/]: The death event of the player Itznotme was canceled by another mod
+[20May2025 22:05:16.470] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:05:19.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme burned to death
+[20May2025 22:05:19.462] [Server thread/DEBUG] [tombstone/]: A new grave of the player Itznotme was created at position [x:121, y:61, z:-21, dim:minecraft:overworld]
+[20May2025 22:05:19.471] [Server thread/INFO] [tombstone/]: The player Itznotme has successfully been saved
+[20May2025 22:05:35.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Set Itznotme's game mode to Survival Mode]
+[20May2025 22:05:36.310] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:05:39.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported Itznotme to fablex39]
+[20May2025 22:06:22.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [fablex39: Teleported 3 entities to fablex39]
+[20May2025 22:06:32.684] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 22:06:32.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 22:06:47.514] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=east,type=single,waterlogged=false]
+[20May2025 22:06:47.515] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+[20May2025 22:06:53.146] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=east,open=false]
+[20May2025 22:06:53.146] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=south,open=false]
+[20May2025 22:06:53.173] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[20May2025 22:06:53.174] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=west,open=false]
+[20May2025 22:06:56.823] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:06:56.823] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[20May2025 22:06:56.824] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:bamboo_chest}[facing=west,type=single,waterlogged=false]
+[20May2025 22:06:56.824] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=east,open=false]
+[20May2025 22:06:56.824] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:06:56.824] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:cherry_chest}[facing=south,type=single,waterlogged=false]
+[20May2025 22:07:08.426] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=west,open=false]
+[20May2025 22:07:08.428] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:08.430] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:08.430] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:08.754] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=west,open=false]
+[20May2025 22:07:08.755] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:08.755] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:08.755] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=west,open=false]
+[20May2025 22:07:08.756] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+[20May2025 22:07:27.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac has made the advancement [Acquire Hardware]
+[20May2025 22:07:27.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kiritogamericrac has made the advancement [Realistic Forging]
+[20May2025 22:07:28.368] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=east,open=false]
+[20May2025 22:07:32.142] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=south,type=single,waterlogged=false]
+[20May2025 22:07:32.323] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:35.297] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:35.297] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:dark_oak_chest}[facing=west,type=single,waterlogged=false]
+[20May2025 22:07:54.026] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+[20May2025 22:07:54.027] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=west,type=single,waterlogged=false]
+[20May2025 22:07:54.027] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=south,type=single,waterlogged=true]
+[20May2025 22:07:54.027] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=east,type=right,waterlogged=true]
+[20May2025 22:07:54.028] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=west,type=single,waterlogged=true]
+[20May2025 22:07:54.531] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:54.531] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:54.531] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[20May2025 22:07:54.532] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:54.673] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:54.673] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:54.674] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:dark_oak_chest}[facing=east,type=single,waterlogged=false]
+[20May2025 22:07:54.674] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:54.674] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:07:54.674] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=south,open=false]
+[20May2025 22:07:54.675] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[20May2025 22:08:30.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Itznotme has made the advancement [Copper age]
+[20May2025 22:09:59.971] [Server thread/WARN] [tombstone/]: The death event of the player Kiritogamericrac was canceled by another mod
+[20May2025 22:09:59.979] [Server thread/INFO] [tombstone/]: The player Kiritogamericrac has successfully been saved
+[20May2025 22:10:07.113] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=123, y=64, z=-2} BlockPos{x=124, y=64, z=-2}
