@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "realisticforgingores:getting_big_stone": {
+    "criteria": {
+      "getting_big_stone_0": "2025-05-20 22:26:44 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/acacia_blossom": {
     "criteria": {
       "acacia_blossom": "2025-05-20 21:47:25 +0000"
@@ -139,6 +145,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-05-20 22:33:43 +0000",
       "cooked_beef": "2025-05-20 22:04:06 +0000"
     },
     "done": false
