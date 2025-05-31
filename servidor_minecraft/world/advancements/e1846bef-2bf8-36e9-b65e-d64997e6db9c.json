@@ -1,103 +1,109 @@
 {
-  "create:root": {
-    "criteria": {
-      "0": "2025-05-30 01:12:35 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/root": {
-    "criteria": {
-      "gun": "2025-05-30 01:12:35 +0000"
-    },
-    "done": true
-  },
   "iceandfire:iceandfire/root": {
     "criteria": {
-      "tick": "2025-05-30 01:12:36 +0000"
+      "tick": "2025-05-30 02:14:57 +0000"
+    },
+    "done": true
+  },
+  "tempad:tempad": {
+    "criteria": {
+      "requirement": "2025-05-30 02:36:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-05-30 02:16:11 +0000"
     },
     "done": true
   },
   "legendary_monsters:end_root": {
     "criteria": {
-      "custom_test_name": "2025-05-30 01:12:36 +0000"
+      "custom_test_name": "2025-05-30 02:14:57 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-05-30 02:14:57 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/root": {
+    "criteria": {
+      "gun": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:main/root": {
     "criteria": {
-      "main": "2025-05-30 01:12:36 +0000"
+      "main": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "mowziesmobs:root": {
     "criteria": {
-      "custom_test_name": "2025-05-30 01:12:36 +0000"
+      "custom_test_name": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "betterdungeons:root": {
     "criteria": {
-      "always": "2025-05-30 01:12:36 +0000"
+      "always": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "lootr:root": {
     "criteria": {
-      "always_true": "2025-05-30 01:12:36 +0000"
+      "always_true": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "legendary_monsters:legendary_monsters_root": {
     "criteria": {
-      "custom_test_name": "2025-05-30 01:12:36 +0000"
+      "custom_test_name": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "born_in_chaos_v1:bornin_chaos": {
     "criteria": {
-      "bornin_chaos_0": "2025-05-30 01:12:36 +0000"
+      "bornin_chaos_0": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "legendary_monsters:nether_root": {
     "criteria": {
-      "custom_test_name": "2025-05-30 01:12:36 +0000"
+      "custom_test_name": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "betterdeserttemples:root": {
     "criteria": {
-      "always": "2025-05-30 01:12:36 +0000"
+      "always": "2025-05-30 02:14:58 +0000"
     },
     "done": true
   },
   "rats:root": {
     "criteria": {
-      "tick": "2025-05-30 01:12:36 +0000"
+      "tick": "2025-05-30 02:14:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-05-30 02:15:00 +0000"
     },
     "done": true
   },
   "cataclysm:root": {
     "criteria": {
-      "custom_test_name": "2025-05-30 01:12:36 +0000"
+      "custom_test_name": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
   "irons_spellbooks:grant_patchouli": {
     "criteria": {
-      "tick": "2025-05-30 01:12:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2025-05-30 01:13:06 +0000"
-    },
-    "done": false
-  },
-  "tombstone:adventure/root": {
-    "criteria": {
-      "auto": "2025-05-30 01:13:06 +0000"
+      "tick": "2025-05-30 02:14:57 +0000"
     },
     "done": true
   },
