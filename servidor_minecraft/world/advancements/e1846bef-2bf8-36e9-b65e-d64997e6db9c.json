@@ -5,18 +5,6 @@
     },
     "done": true
   },
-  "tempad:tempad": {
-    "criteria": {
-      "requirement": "2025-05-30 02:36:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2025-05-30 02:16:11 +0000"
-    },
-    "done": true
-  },
   "legendary_monsters:end_root": {
     "criteria": {
       "custom_test_name": "2025-05-30 02:14:57 +0000"
@@ -77,21 +65,9 @@
     },
     "done": true
   },
-  "betterdeserttemples:root": {
-    "criteria": {
-      "always": "2025-05-30 02:14:58 +0000"
-    },
-    "done": true
-  },
   "rats:root": {
     "criteria": {
       "tick": "2025-05-30 02:14:57 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/root": {
-    "criteria": {
-      "auto": "2025-05-30 02:15:00 +0000"
     },
     "done": true
   },
@@ -104,6 +80,54 @@
   "irons_spellbooks:grant_patchouli": {
     "criteria": {
       "tick": "2025-05-30 02:14:57 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2025-05-30 02:14:58 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-05-30 02:15:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-05-30 02:16:11 +0000"
+    },
+    "done": true
+  },
+  "tempad:tempad": {
+    "criteria": {
+      "requirement": "2025-05-30 02:36:18 +0000"
+    },
+    "done": true
+  },
+  "genshinstrument:genshin_instruments/root": {
+    "criteria": {
+      "has_instruments": "2025-06-01 18:55:24 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_receptacle_of_familiar": "2025-06-01 18:54:43 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-06-01 18:54:43 +0000"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:recipes/keyboard_stand": {
+    "criteria": {
+      "has_item": "2025-06-01 18:55:24 +0000"
     },
     "done": true
   },
