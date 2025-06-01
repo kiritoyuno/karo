@@ -107,11 +107,41 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/ride_nuclear_bomb": {
+    "criteria": {
+      "ride_a_boat_with_a_goat": "2025-06-01 18:58:55 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/nuclear_bomb": {
+    "criteria": {
+      "nuclear_bomb": "2025-06-01 18:58:36 +0000"
+    },
+    "done": true
+  },
   "genshinstrument:genshin_instruments/root": {
     "criteria": {
       "has_instruments": "2025-06-01 18:55:24 +0000"
     },
     "done": true
+  },
+  "iceandfire:iceandfire/kill_siren": {
+    "criteria": {
+      "killed_fire_dragon": "2025-06-01 18:59:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-06-01 18:59:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:deep_ocean": "2025-06-01 18:58:14 +0000"
+    },
+    "done": false
   },
   "tombstone:adventure/create_familiar_receptacle": {
     "criteria": {
