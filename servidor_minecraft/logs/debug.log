@@ -14088,3 +14088,104 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanis
 [02Jun2025 23:18:19.249] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
 [02Jun2025 23:18:43.394] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
 [02Jun2025 23:19:10.192] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[02Jun2025 23:19:27.238] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[02Jun2025 23:21:41.152] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[02Jun2025 23:21:41.173] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[02Jun2025 23:23:10.173] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 42582ms or 851 ticks behind
+[02Jun2025 23:23:33.208] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fablex39 lost connection: Timed out
+[02Jun2025 23:23:33.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fablex39 left the game
+[02Jun2025 23:23:33.251] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.252] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.253] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.253] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.253] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=east,open=false]
+[02Jun2025 23:23:33.254] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=south,type=single,waterlogged=false]
+[02Jun2025 23:23:33.254] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.255] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.255] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=south,open=false]
+[02Jun2025 23:23:33.255] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=west,open=false]
+[02Jun2025 23:23:33.256] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.256] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.256] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.257] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.257] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.257] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.258] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+[02Jun2025 23:23:33.258] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+[02Jun2025 23:23:33.260] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=south,open=false]
+[02Jun2025 23:23:33.260] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=south,open=false]
+[02Jun2025 23:23:33.260] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=south,open=false]
+[02Jun2025 23:23:33.261] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.261] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=south,type=single,waterlogged=false]
+[02Jun2025 23:23:33.261] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+[02Jun2025 23:23:33.261] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.262] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.262] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.262] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.263] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.263] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.263] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.264] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:crimson_chest}[facing=north,type=single,waterlogged=false]
+[02Jun2025 23:23:33.264] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=east,open=false]
+[02Jun2025 23:23:33.264] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=west,open=false]
+[02Jun2025 23:23:33.265] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.265] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:acacia_chest}[facing=north,type=single,waterlogged=false]
+[02Jun2025 23:23:33.265] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.265] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:bamboo_chest}[facing=north,type=single,waterlogged=false]
+[02Jun2025 23:23:33.266] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=north,type=single,waterlogged=false]
+[02Jun2025 23:23:33.266] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.266] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.266] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:birch_chest}[facing=north,type=single,waterlogged=false]
+[02Jun2025 23:23:33.267] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.267] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.267] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=north,open=false]
+[02Jun2025 23:23:33.268] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:chest}[facing=south,type=single,waterlogged=false]
+[02Jun2025 23:23:33.268] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=west,open=false]
+[02Jun2025 23:23:33.268] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.268] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.269] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=east,open=false]
+[02Jun2025 23:23:33.269] [Server thread/INFO] [melonslise.locks.Locks/]: Block{quark:cherry_chest}[facing=west,type=single,waterlogged=false]
+[02Jun2025 23:23:33.269] [Server thread/INFO] [melonslise.locks.Locks/]: Block{minecraft:barrel}[facing=up,open=false]
+[02Jun2025 23:23:33.282] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id legendarycreatures:hound
+[02Jun2025 23:23:33.282] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id legendarycreatures:hound
+[02Jun2025 23:23:33.282] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id legendarycreatures:hound
+[02Jun2025 23:23:33.352] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[02Jun2025 23:23:39.619] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14479ms or 289 ticks behind
+[02Jun2025 23:23:49.194] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for minecraft:overworld
+[02Jun2025 23:23:49.194] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for minecraft:overworld
+[02Jun2025 23:23:49.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Jun2025 23:23:49.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Jun2025 23:23:49.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Jun2025 23:23:49.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02Jun2025 23:23:50.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/voidscape:void
+[02Jun2025 23:23:50.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[02Jun2025 23:23:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/createteleporters:pocket_dimension
+[02Jun2025 23:23:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02Jun2025 23:23:50.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02Jun2025 23:23:50.585] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[02Jun2025 23:23:50.605] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[02Jun2025 23:23:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Jun2025 23:23:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[02Jun2025 23:23:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[02Jun2025 23:23:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[02Jun2025 23:23:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Jun2025 23:23:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Jun2025 23:23:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Jun2025 23:23:50.652] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for minecraft:overworld
+[02Jun2025 23:23:50.652] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for minecraft:overworld
+[02Jun2025 23:23:50.693] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for voidscape:void
+[02Jun2025 23:23:50.693] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for voidscape:void
+[02Jun2025 23:23:50.693] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for deeperdarker:otherside
+[02Jun2025 23:23:50.693] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for deeperdarker:otherside
+[02Jun2025 23:23:50.694] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for createteleporters:pocket_dimension
+[02Jun2025 23:23:50.694] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for createteleporters:pocket_dimension
+[02Jun2025 23:23:50.694] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for minecraft:the_end
+[02Jun2025 23:23:50.694] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for minecraft:the_end
+[02Jun2025 23:23:50.694] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for minecraft:the_nether
+[02Jun2025 23:23:50.694] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for minecraft:the_nether
+[02Jun2025 23:23:50.697] [Server thread/INFO] [Framework/]: Unloading server configs...
+[02Jun2025 23:23:50.698] [Server thread/DEBUG] [Framework/]: Stopped watching config: /workspaces/karo/servidor_minecraft/config/goblintraders-entities.toml
+[02Jun2025 23:23:50.698] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[02Jun2025 23:23:50.700] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[02Jun2025 23:23:50.700] [Server thread/DEBUG] [Framework/]: Stopping config watcher
+[02Jun2025 23:23:50.700] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
