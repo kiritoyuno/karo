@@ -1,23 +1,1195 @@
-[06Jun2025 00:01:03.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06Jun2025 00:01:03.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06Jun2025 00:01:03.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06Jun2025 00:01:03.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06Jun2025 00:01:05.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/voidscape:void
-[06Jun2025 00:01:05.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/createteleporters:pocket_dimension
-[06Jun2025 00:01:05.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06Jun2025 00:01:05.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
-[06Jun2025 00:01:05.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/midnight:the_midnight
-[06Jun2025 00:01:05.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06Jun2025 00:01:05.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (void): All chunks are saved
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_midnight): All chunks are saved
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[06Jun2025 00:01:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06Jun2025 00:01:05.366] [Server thread/INFO] [Framework/]: Unloading server configs...
-[06Jun2025 00:01:05.366] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
-[06Jun2025 00:01:05.368] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[07Jun2025 01:23:38.896] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[07Jun2025 01:23:38.900] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[07Jun2025 01:23:39.709] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Jun2025 01:23:39.759] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/karo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Jun2025 01:23:40.201] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/karo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[07Jun2025 01:23:40.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/karo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[07Jun2025 01:23:40.205] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/karo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[07Jun2025 01:23:40.206] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/karo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[07Jun2025 01:23:40.568] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[07Jun2025 01:23:40.570] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/karo/servidor_minecraft/mods/geckolib-forge-1.20.1-4.7.1.2.jar
+[07Jun2025 01:23:40.570] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection
+[07Jun2025 01:23:43.671] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Jun2025 01:23:43.960] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[07Jun2025 01:23:43.963] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.crypticmushroom.minecraft.registry.coremod.CrypticCoreMod]
+[07Jun2025 01:23:43.964] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.crypticmushroom.minecraft.midnight.coremod.MidnightCoreMod]
+[07Jun2025 01:23:43.973] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[07Jun2025 01:23:44.126] [main/WARN] [mixin/]: Reference map 'integrated_cataclysm.refmap.json' for integrated_cataclysm.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jun2025 01:23:44.164] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jun2025 01:23:44.174] [main/WARN] [mixin/]: Reference map 'mixins.alexscaves_torpedoes.refmap.json' for mixins.alexscaves_torpedoes.json could not be read. If this is a development environment you can ignore this message
+[07Jun2025 01:23:44.216] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jun2025 01:23:44.218] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jun2025 01:23:44.284] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jun2025 01:23:45.636] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[07Jun2025 01:23:45.636] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[07Jun2025 01:23:46.346] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[07Jun2025 01:23:46.545] [main/WARN] [mixin/]: Error loading class: com/legacy/lucent/api/data/objects/EntityLighting$Builder (java.lang.ClassNotFoundException: com.legacy.lucent.api.data.objects.EntityLighting$Builder)
+[07Jun2025 01:23:46.546] [main/WARN] [mixin/]: @Mixin target com.legacy.lucent.api.data.objects.EntityLighting$Builder was not found META-INF/mixin/midnight.mixins.json:accessor.EntityLightingBuilderAccessor
+[07Jun2025 01:23:46.549] [main/WARN] [mixin/]: Error loading class: com/legacy/lucent/api/data/objects/ItemLighting$Builder (java.lang.ClassNotFoundException: com.legacy.lucent.api.data.objects.ItemLighting$Builder)
+[07Jun2025 01:23:46.549] [main/WARN] [mixin/]: @Mixin target com.legacy.lucent.api.data.objects.ItemLighting$Builder was not found META-INF/mixin/midnight.mixins.json:accessor.ItemLightingBuilderAccessor
+[07Jun2025 01:23:46.824] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[07Jun2025 01:23:51.959] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on witherstormmod.mixins.json:MixinSwellGoal::handler$zfc000$canUseInvoke exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[07Jun2025 01:23:52.176] [main/WARN] [mixin/]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin should be final
+[07Jun2025 01:23:52.683] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+java.lang.IllegalStateException: Field f_47437_ is not private and an instance field
+	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:1069) ~[coremods-5.2.4.jar%2354!/:?]
+	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$68$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.4.jar%2366!/:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.4.jar%2366!/:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.4.jar%2366!/:?]
+	at org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.4.jar%2366!/:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:37) ~[coremods-5.2.4.jar%2354!/:5.2.4]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:22) ~[coremods-5.2.4.jar%2354!/:?]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:14) ~[coremods-5.2.4.jar%2354!/:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:60) ~[coremods-5.2.4.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:250) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forType(ClassInfo.java:2059) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forDescriptor(ClassInfo.java:2038) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformMethod(MixinPreProcessorStandard.java:752) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transform(MixinPreProcessorStandard.java:739) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:310) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:280) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:292) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.<clinit>(ChunkStatus.java:50) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257540_(BuiltInRegistries.java:200) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258029_(BuiltInRegistries.java:448) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258037_(BuiltInRegistries.java:462) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257453_(BuiltInRegistries.java:461) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257498_(BuiltInRegistries.java:455) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:121) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:23:53.358] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[07Jun2025 01:23:53.483] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+java.lang.IllegalStateException: Field f_47437_ is not private and an instance field
+	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:1069) ~[coremods-5.2.4.jar%2354!/:?]
+	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$68$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.4.jar%2366!/:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.4.jar%2366!/:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.4.jar%2366!/:?]
+	at org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.4.jar%2366!/:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:37) ~[coremods-5.2.4.jar%2354!/:5.2.4]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:22) ~[coremods-5.2.4.jar%2354!/:?]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:14) ~[coremods-5.2.4.jar%2354!/:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:60) ~[coremods-5.2.4.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraft.world.level.biome.FixedBiomeSource.<clinit>(FixedBiomeSource.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.biome.BiomeSources.m_220586_(BiomeSources.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258029_(BuiltInRegistries.java:448) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258037_(BuiltInRegistries.java:462) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257453_(BuiltInRegistries.java:461) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257498_(BuiltInRegistries.java:455) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:121) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:23:54.231] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/karo/servidor_minecraft/config/guardvillagers-common.toml is not correct. Correcting
+[07Jun2025 01:23:54.492] [modloading-worker-0/INFO] [lazrslib/]: Built config 'cuffed' Successfully!
+[07Jun2025 01:23:54.620] [modloading-worker-0/INFO] [cuffed/]: Registered restraints
+[07Jun2025 01:23:55.180] [modloading-worker-0/INFO] [voidscape/]: Starting Donator Handler
+[07Jun2025 01:23:55.184] [Voidscape Donator Loader/INFO] [voidscape/]: Loading donor data
+[07Jun2025 01:23:55.248] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[07Jun2025 01:23:55.691] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[07Jun2025 01:23:55.699] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[07Jun2025 01:23:55.700] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[07Jun2025 01:23:55.702] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[07Jun2025 01:23:55.705] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[07Jun2025 01:23:55.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[07Jun2025 01:23:55.720] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[07Jun2025 01:23:55.790] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[07Jun2025 01:23:55.820] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[07Jun2025 01:23:55.823] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[07Jun2025 01:23:56.200] [Voidscape Donator Loader/INFO] [voidscape/]: Donor data loaded
+[07Jun2025 01:23:56.850] [modloading-worker-0/INFO] [guardribbits/]: Initializing the Ribbit Guardians!
+[07Jun2025 01:23:57.299] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 254bb816aee1c056c74b2ad4beb88222a499da78
+[07Jun2025 01:23:57.558] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[07Jun2025 01:23:57.966] [modloading-worker-0/INFO] [zeta/]: Doing super early config setup for zeta
+[07Jun2025 01:23:58.024] [modloading-worker-0/INFO] [Midnight/]: Welcome back to The Midnight. Shall we resume the spread of the malaise?
+[07Jun2025 01:23:58.813] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[07Jun2025 01:23:58.813] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[07Jun2025 01:23:58.826] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[07Jun2025 01:23:58.827] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[07Jun2025 01:23:58.829] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[07Jun2025 01:23:58.853] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[07Jun2025 01:23:58.880] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[07Jun2025 01:23:58.880] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[07Jun2025 01:23:58.883] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[07Jun2025 01:23:58.884] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[07Jun2025 01:23:58.888] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[07Jun2025 01:23:58.889] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[07Jun2025 01:23:58.891] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[07Jun2025 01:23:58.904] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[07Jun2025 01:23:58.905] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[07Jun2025 01:23:58.905] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[07Jun2025 01:23:58.915] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[07Jun2025 01:23:58.922] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[07Jun2025 01:23:58.923] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[07Jun2025 01:23:58.924] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[07Jun2025 01:23:58.929] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[07Jun2025 01:23:58.929] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[07Jun2025 01:23:58.930] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[07Jun2025 01:23:58.930] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[07Jun2025 01:23:58.930] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[07Jun2025 01:23:58.936] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[07Jun2025 01:23:58.939] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[07Jun2025 01:23:58.939] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[07Jun2025 01:23:58.944] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[07Jun2025 01:23:58.945] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[07Jun2025 01:23:58.951] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[07Jun2025 01:23:58.951] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[07Jun2025 01:23:58.995] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[07Jun2025 01:23:59.003] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[07Jun2025 01:23:59.007] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[07Jun2025 01:23:59.016] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[07Jun2025 01:23:59.017] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[07Jun2025 01:23:59.018] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[07Jun2025 01:23:59.020] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[07Jun2025 01:23:59.021] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[07Jun2025 01:23:59.021] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[07Jun2025 01:23:59.022] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[07Jun2025 01:23:59.023] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[07Jun2025 01:23:59.026] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[07Jun2025 01:23:59.029] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[07Jun2025 01:23:59.031] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[07Jun2025 01:23:59.032] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[07Jun2025 01:23:59.035] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[07Jun2025 01:23:59.038] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[07Jun2025 01:23:59.042] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[07Jun2025 01:23:59.043] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[07Jun2025 01:23:59.044] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[07Jun2025 01:23:59.049] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[07Jun2025 01:23:59.058] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[07Jun2025 01:23:59.070] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[07Jun2025 01:23:59.073] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[07Jun2025 01:23:59.073] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[07Jun2025 01:23:59.077] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[07Jun2025 01:23:59.090] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[07Jun2025 01:23:59.096] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[07Jun2025 01:23:59.111] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[07Jun2025 01:23:59.112] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[07Jun2025 01:23:59.115] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[07Jun2025 01:23:59.115] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[07Jun2025 01:23:59.120] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[07Jun2025 01:23:59.124] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[07Jun2025 01:23:59.130] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[07Jun2025 01:23:59.131] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[07Jun2025 01:23:59.132] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[07Jun2025 01:23:59.136] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[07Jun2025 01:23:59.136] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[07Jun2025 01:23:59.137] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[07Jun2025 01:23:59.137] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[07Jun2025 01:23:59.138] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[07Jun2025 01:23:59.138] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[07Jun2025 01:23:59.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[07Jun2025 01:23:59.155] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[07Jun2025 01:23:59.156] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[07Jun2025 01:23:59.156] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[07Jun2025 01:23:59.157] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[07Jun2025 01:23:59.157] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[07Jun2025 01:23:59.158] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[07Jun2025 01:23:59.160] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[07Jun2025 01:23:59.166] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[07Jun2025 01:23:59.167] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[07Jun2025 01:23:59.183] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[07Jun2025 01:23:59.187] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[07Jun2025 01:23:59.187] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[07Jun2025 01:23:59.188] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[07Jun2025 01:23:59.188] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[07Jun2025 01:23:59.188] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[07Jun2025 01:23:59.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[07Jun2025 01:23:59.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[07Jun2025 01:23:59.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[07Jun2025 01:23:59.190] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[07Jun2025 01:23:59.191] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[07Jun2025 01:23:59.191] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[07Jun2025 01:23:59.195] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[07Jun2025 01:23:59.201] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[07Jun2025 01:23:59.217] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[07Jun2025 01:23:59.218] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[07Jun2025 01:23:59.218] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[07Jun2025 01:23:59.218] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[07Jun2025 01:23:59.219] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[07Jun2025 01:23:59.219] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[07Jun2025 01:23:59.224] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[07Jun2025 01:23:59.228] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[07Jun2025 01:23:59.232] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[07Jun2025 01:23:59.236] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[07Jun2025 01:23:59.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[07Jun2025 01:23:59.245] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[07Jun2025 01:23:59.258] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[07Jun2025 01:23:59.259] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[07Jun2025 01:23:59.260] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[07Jun2025 01:23:59.260] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[07Jun2025 01:23:59.263] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[07Jun2025 01:23:59.263] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[07Jun2025 01:23:59.264] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[07Jun2025 01:23:59.267] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[07Jun2025 01:23:59.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[07Jun2025 01:23:59.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[07Jun2025 01:23:59.274] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[07Jun2025 01:23:59.277] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[07Jun2025 01:23:59.282] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[07Jun2025 01:23:59.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[07Jun2025 01:23:59.299] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[07Jun2025 01:23:59.300] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[07Jun2025 01:23:59.300] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[07Jun2025 01:23:59.306] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[07Jun2025 01:23:59.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[07Jun2025 01:23:59.311] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[07Jun2025 01:23:59.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[07Jun2025 01:23:59.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[07Jun2025 01:23:59.316] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[07Jun2025 01:23:59.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[07Jun2025 01:23:59.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[07Jun2025 01:23:59.320] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[07Jun2025 01:23:59.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[07Jun2025 01:23:59.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[07Jun2025 01:23:59.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[07Jun2025 01:23:59.341] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[07Jun2025 01:23:59.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[07Jun2025 01:23:59.345] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[07Jun2025 01:23:59.350] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[07Jun2025 01:23:59.351] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[07Jun2025 01:23:59.354] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[07Jun2025 01:23:59.358] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[07Jun2025 01:23:59.360] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[07Jun2025 01:23:59.361] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[07Jun2025 01:23:59.363] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[07Jun2025 01:23:59.364] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[07Jun2025 01:23:59.366] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[07Jun2025 01:23:59.391] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[07Jun2025 01:23:59.407] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[07Jun2025 01:23:59.409] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[07Jun2025 01:23:59.424] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[07Jun2025 01:23:59.425] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[07Jun2025 01:23:59.451] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[07Jun2025 01:23:59.453] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[07Jun2025 01:23:59.454] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[07Jun2025 01:23:59.454] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[07Jun2025 01:23:59.459] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[07Jun2025 01:23:59.461] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[07Jun2025 01:23:59.462] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[07Jun2025 01:23:59.462] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[07Jun2025 01:23:59.470] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[07Jun2025 01:23:59.608] [modloading-worker-0/INFO] [quark-zeta/]: Doing super early config setup for quark
+[07Jun2025 01:23:59.728] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[07Jun2025 01:24:00.305] [main/INFO] [cuffed/]: Registering Capabilities for Cuffed
+[07Jun2025 01:24:00.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@6bbced25 has been registered twice for the same name treechop:chop_wood.
+[07Jun2025 01:24:00.338] [main/INFO] [cuffed/]: Registering sound for Cuffed
+[07Jun2025 01:24:08.403] [main/INFO] [Moonlight/]: Initialized block sets in 24ms
+[07Jun2025 01:24:09.214] [main/INFO] [cuffed/]: Cuffed has found a foreign restraint registry, registering with Restraint API
+[07Jun2025 01:24:09.366] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.lazrproductions.cuffed.entity.WeightedAnchorEntity
+[07Jun2025 01:24:09.431] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[07Jun2025 01:24:09.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[07Jun2025 01:24:09.519] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/karo/servidor_minecraft/config/guardvillagers-common.toml is not correct. Correcting
+[07Jun2025 01:24:09.611] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/karo/servidor_minecraft/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common.toml is not correct. Correcting
+[07Jun2025 01:24:09.612] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key body-damage.healing-items.first-aid-supplies.First Aid Supplies Boosted On Effects was corrected from [minecraft:regeneration, farmersdelight:comfort] to its default, [minecraft:regeneration, farmersdelight:comfort]. 
+[07Jun2025 01:24:09.619] [Thread-4/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/karo/servidor_minecraft/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common.toml is not correct. Correcting
+[07Jun2025 01:24:09.658] [Thread-4/INFO] [zeta/]: About to refresh zeta's config, looking for better thread than 'Thread-4'...
+[07Jun2025 01:24:09.658] [Thread-4/WARN] [zeta/]: Using thread 'Thread-4' instead of the server thread
+[07Jun2025 01:24:09.659] [Thread-4/INFO] [zeta/]: zeta's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-4
+[07Jun2025 01:24:09.659] [Thread-4/INFO] [zeta/]: About to refresh zeta's config, looking for better thread than 'Thread-4'...
+[07Jun2025 01:24:09.660] [Thread-4/WARN] [zeta/]: Using thread 'Thread-4' instead of the server thread
+[07Jun2025 01:24:09.660] [Thread-4/INFO] [zeta/]: zeta's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-4
+[07Jun2025 01:24:09.679] [Thread-4/INFO] [quark-zeta/]: About to refresh quark's config, looking for better thread than 'Thread-4'...
+[07Jun2025 01:24:09.679] [Thread-4/WARN] [quark-zeta/]: Using thread 'Thread-4' instead of the server thread
+[07Jun2025 01:24:09.679] [Thread-4/INFO] [quark-zeta/]: quark's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-4
+[07Jun2025 01:24:09.683] [Thread-4/INFO] [quark-zeta/]: About to refresh quark's config, looking for better thread than 'Thread-4'...
+[07Jun2025 01:24:09.684] [Thread-4/WARN] [quark-zeta/]: Using thread 'Thread-4' instead of the server thread
+[07Jun2025 01:24:09.684] [Thread-4/INFO] [quark-zeta/]: quark's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-4
+[07Jun2025 01:24:09.737] [modloading-worker-0/INFO] [cuffed/]: Running commmon setup for Cuffed
+[07Jun2025 01:24:09.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_jetpack] Starting version check at https://api.modrinth.com/updates/create-jetpack/forge_updates.json
+[07Jun2025 01:24:10.080] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[07Jun2025 01:24:10.093] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[07Jun2025 01:24:10.108] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[07Jun2025 01:24:10.108] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[07Jun2025 01:24:10.108] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[07Jun2025 01:24:10.110] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[07Jun2025 01:24:10.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_jetpack] Found status: UP_TO_DATE Current: 4.4.2 Target: null
+[07Jun2025 01:24:10.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[07Jun2025 01:24:10.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: BETA Current: 1.20.1-1.6.10 Target: 1.20-1.6.5
+[07Jun2025 01:24:10.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[07Jun2025 01:24:10.334] [main/INFO] [Moonlight/]: Initialized color sets in 74ms
+[07Jun2025 01:24:10.423] [main/INFO] [zeta/]: Common setup: Performing initial refresh of zeta's config on thread 'main'
+[07Jun2025 01:24:10.424] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[07Jun2025 01:24:10.426] [main/INFO] [zeta/]: Waiting for server start before accepting filewatcher changes to zeta's config
+[07Jun2025 01:24:10.434] [main/INFO] [quark-zeta/]: Common setup: Performing initial refresh of quark's config on thread 'main'
+[07Jun2025 01:24:10.455] [main/INFO] [quark-zeta/]: Waiting for server start before accepting filewatcher changes to quark's config
+[07Jun2025 01:24:10.515] [main/INFO] [Supplementaries/]: Finished mod setup in: [21, 2, 0, 0, 0, 0, 9, 6, 1] ms
+[07Jun2025 01:24:10.571] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[07Jun2025 01:24:10.608] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Unknown effect farmersdelight:comfort
+[07Jun2025 01:24:10.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[07Jun2025 01:24:10.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Starting version check at https://raw.githubusercontent.com/nonamecrackers2/cwsm-update-info/main/update_checker.json
+[07Jun2025 01:24:10.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Found status: UP_TO_DATE Current: 4.2.1 Target: null
+[07Jun2025 01:24:10.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[07Jun2025 01:24:10.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: AHEAD Current: 8.9.6 Target: null
+[07Jun2025 01:24:10.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[07Jun2025 01:24:11.260] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.0.jar%23278!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.0.jar%23278!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[07Jun2025 01:24:11.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Jun2025 01:24:11.399] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[07Jun2025 01:24:11.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[07Jun2025 01:24:11.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.14.4 Target: null
+[07Jun2025 01:24:11.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[07Jun2025 01:24:11.507] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[07Jun2025 01:24:11.507] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [midnight] Starting version check at https://changelogs.moddinglegacy.com/midnight.json
+[07Jun2025 01:24:11.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [midnight] Found status: AHEAD Current: 0.6.7 Target: null
+[07Jun2025 01:24:11.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[07Jun2025 01:24:11.758] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.31 Target: null
+[07Jun2025 01:24:18.200] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Jun2025 01:24:18.393] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+revive_hardcore_players (version 1.1 -> MISSING)
+simpleshops (version 1.2.2 -> MISSING)
+Things may not work well.
+[07Jun2025 01:24:18.556] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	simpleshops:creative_simple_shop: 1075
+	simpleshops:simple_shop: 1074
+
+[07Jun2025 01:24:18.557] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	revive_hardcore_players:revive_crystal: 3752
+	simpleshops:creative_simple_shop: 1696
+	simpleshops:green_stockbar: 1699
+	simpleshops:quartz_stockbar: 1698
+	simpleshops:red_stockbar: 1700
+	simpleshops:simple_shop: 1695
+	simpleshops:wooden_stockbar: 1697
+
+[07Jun2025 01:24:18.558] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 9 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[07Jun2025 01:24:18.558] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
+    revive_hardcore_players:revive_crystal
+    simpleshops:creative_simple_shop
+    simpleshops:green_stockbar
+    simpleshops:quartz_stockbar
+    simpleshops:red_stockbar
+    simpleshops:simple_shop
+    simpleshops:wooden_stockbar
+
+Missing minecraft:block:
+    simpleshops:creative_simple_shop
+    simpleshops:simple_shop
+
+
+[07Jun2025 01:24:18.558] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:grave_simple Expected: 1249 Got: 4683
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_grave_simple Expected: 1250 Got: 4684
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:grave_normal Expected: 1251 Got: 4685
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_grave_normal Expected: 1252 Got: 4686
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:grave_cross Expected: 1253 Got: 4687
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_grave_cross Expected: 1254 Got: 4688
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:tombstone Expected: 1255 Got: 4689
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_tombstone Expected: 1256 Got: 4690
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:subaraki_grave Expected: 1257 Got: 4691
+[07Jun2025 01:24:18.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_subaraki_grave Expected: 1258 Got: 4692
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:grave_original Expected: 1259 Got: 4693
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:decorative_grave_original Expected: 1260 Got: 4694
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:abandoned_grave Expected: 1261 Got: 4695
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:dark_marble Expected: 1262 Got: 4696
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:white_marble Expected: 1263 Got: 4697
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:blue_marble Expected: 1264 Got: 4698
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:green_marble Expected: 1265 Got: 4699
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:carmin_marble Expected: 1266 Got: 4700
+[07Jun2025 01:24:18.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:dark_marble_slab Expected: 1267 Got: 4701
+[07Jun2025 01:24:18.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:white_marble_slab Expected: 1268 Got: 4702
+[07Jun2025 01:24:18.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:blue_marble_slab Expected: 1269 Got: 4703
+[07Jun2025 01:24:18.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:green_marble_slab Expected: 1270 Got: 4704
+[07Jun2025 01:24:18.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:carmin_marble_slab Expected: 1271 Got: 4705
+[07Jun2025 01:24:18.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:dark_marble_stairs Expected: 1272 Got: 4706
+[07Jun2025 01:24:18.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:white_marble_stairs Expected: 1273 Got: 4707
+[07Jun2025 01:24:18.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:blue_marble_stairs Expected: 1274 Got: 4708
+[07Jun2025 01:24:18.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:green_marble_stairs Expected: 1275 Got: 4709
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:carmin_marble_stairs Expected: 1276 Got: 4710
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:dark_marble_wall Expected: 1277 Got: 4711
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:white_marble_wall Expected: 1278 Got: 4712
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:blue_marble_wall Expected: 1279 Got: 4713
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:green_marble_wall Expected: 1280 Got: 4714
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: tombstone:carmin_marble_wall Expected: 1281 Got: 4715
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:launchpad Expected: 1522 Got: 4716
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:tnt_missle Expected: 1523 Got: 4717
+[07Jun2025 01:24:18.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:tnt_missle_falling Expected: 1524 Got: 4718
+[07Jun2025 01:24:18.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:napalm_missle Expected: 1525 Got: 4719
+[07Jun2025 01:24:18.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:falling_napalm Expected: 1526 Got: 4720
+[07Jun2025 01:24:18.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:cluster_bomb Expected: 1527 Got: 4721
+[07Jun2025 01:24:18.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:cluster_bomb_falling Expected: 1528 Got: 4722
+[07Jun2025 01:24:18.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:trapdoorclosed Expected: 1529 Got: 4723
+[07Jun2025 01:24:18.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:trapdooropen Expected: 1530 Got: 4724
+[07Jun2025 01:24:18.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:omega_missle Expected: 1531 Got: 4725
+[07Jun2025 01:24:18.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:omega_missle_falling Expected: 1532 Got: 4726
+[07Jun2025 01:24:18.567] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:omegacore Expected: 1533 Got: 4727
+[07Jun2025 01:24:18.567] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:test_pvo Expected: 1534 Got: 4728
+[07Jun2025 01:24:18.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:playerlocator Expected: 1535 Got: 4729
+[07Jun2025 01:24:18.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:orbitallasermissile Expected: 1536 Got: 4730
+[07Jun2025 01:24:18.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:orbitallasershoot Expected: 1537 Got: 4731
+[07Jun2025 01:24:18.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:lasermissilebroken Expected: 1538 Got: 4732
+[07Jun2025 01:24:18.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:data_transferblock Expected: 1539 Got: 4733
+[07Jun2025 01:24:18.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:console Expected: 1540 Got: 4734
+[07Jun2025 01:24:18.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:data_transferblockrecieve Expected: 1541 Got: 4735
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:effect_missile_falling Expected: 1542 Got: 4736
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:missilelocator Expected: 1543 Got: 4737
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:missilelocatorfound Expected: 1544 Got: 4738
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:plasma Expected: 1545 Got: 4739
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:omega_entity_missile_faliing_empty Expected: 1546 Got: 4740
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:overloaded_redstoneblock Expected: 1547 Got: 4741
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:burned_repeater Expected: 1548 Got: 4742
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:emp_missile Expected: 1549 Got: 4743
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:burned_comparator Expected: 1550 Got: 4744
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:missile_locatorburned Expected: 1551 Got: 4745
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:player_locator_overloaded Expected: 1552 Got: 4746
+[07Jun2025 01:24:18.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:overloaded_bmd Expected: 1553 Got: 4747
+[07Jun2025 01:24:18.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simplemissiles:empstable Expected: 1554 Got: 4748
+[07Jun2025 01:24:18.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: simple_hardcore_respawn:re_spawner Expected: 1729 Got: 4749
+[07Jun2025 01:24:18.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: create_enchantment_industry:disenchanter Expected: 4748 Got: 4750
+[07Jun2025 01:24:18.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: create_enchantment_industry:printer Expected: 4749 Got: 4751
+[07Jun2025 01:24:18.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: create_enchantment_industry:blaze_enchanter Expected: 4750 Got: 4752
+[07Jun2025 01:24:18.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: create_enchantment_industry:ink Expected: 4751 Got: 4753
+[07Jun2025 01:24:18.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_grave_simple Expected: 2052 Got: 6917
+[07Jun2025 01:24:18.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_grave_normal Expected: 2053 Got: 6918
+[07Jun2025 01:24:18.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_grave_cross Expected: 2054 Got: 6919
+[07Jun2025 01:24:18.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_tombstone Expected: 2055 Got: 6920
+[07Jun2025 01:24:18.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_subaraki_grave Expected: 2056 Got: 6921
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:decorative_grave_original Expected: 2057 Got: 6922
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dark_marble Expected: 2058 Got: 6923
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:white_marble Expected: 2059 Got: 6924
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:blue_marble Expected: 2060 Got: 6925
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:green_marble Expected: 2061 Got: 6926
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:carmin_marble Expected: 2062 Got: 6927
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dark_marble_slab Expected: 2063 Got: 6928
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:white_marble_slab Expected: 2064 Got: 6929
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:blue_marble_slab Expected: 2065 Got: 6930
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:green_marble_slab Expected: 2066 Got: 6931
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:carmin_marble_slab Expected: 2067 Got: 6932
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dark_marble_stairs Expected: 2068 Got: 6933
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:white_marble_stairs Expected: 2069 Got: 6934
+[07Jun2025 01:24:18.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:blue_marble_stairs Expected: 2070 Got: 6935
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:green_marble_stairs Expected: 2071 Got: 6936
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:carmin_marble_stairs Expected: 2072 Got: 6937
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dark_marble_wall Expected: 2073 Got: 6938
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:white_marble_wall Expected: 2074 Got: 6939
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:blue_marble_wall Expected: 2075 Got: 6940
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:green_marble_wall Expected: 2076 Got: 6941
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:carmin_marble_wall Expected: 2077 Got: 6942
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:grave_key Expected: 2078 Got: 6943
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:grave_plate Expected: 2079 Got: 6944
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:ankh_of_prayer Expected: 2080 Got: 6945
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:fishing_rod_of_misadventure Expected: 2081 Got: 6946
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:grave_dust Expected: 2082 Got: 6947
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:essence_of_undeath Expected: 2083 Got: 6948
+[07Jun2025 01:24:18.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:impregnated_diamond Expected: 2084 Got: 6949
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:bone_needle Expected: 2085 Got: 6950
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:strange_scroll Expected: 2086 Got: 6951
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:strange_tablet Expected: 2087 Got: 6952
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_recall Expected: 2088 Got: 6953
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_home Expected: 2089 Got: 6954
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_assistance Expected: 2090 Got: 6955
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_cupidity Expected: 2091 Got: 6956
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:tablet_of_guard Expected: 2092 Got: 6957
+[07Jun2025 01:24:18.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:lost_tablet Expected: 2093 Got: 6958
+[07Jun2025 01:24:18.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_knowledge Expected: 2094 Got: 6959
+[07Jun2025 01:24:18.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dust_of_vanishing Expected: 2095 Got: 6960
+[07Jun2025 01:24:18.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:dust_of_frost Expected: 2096 Got: 6961
+[07Jun2025 01:24:18.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_disenchantment Expected: 2097 Got: 6962
+[07Jun2025 01:24:18.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_recycling Expected: 2098 Got: 6963
+[07Jun2025 01:24:18.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_repairing Expected: 2099 Got: 6964
+[07Jun2025 01:24:18.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_scribe Expected: 2100 Got: 6965
+[07Jun2025 01:24:18.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_magic_impregnation Expected: 2101 Got: 6966
+[07Jun2025 01:24:18.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_soulbound Expected: 2102 Got: 6967
+[07Jun2025 01:24:18.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:book_of_oblivion Expected: 2103 Got: 6968
+[07Jun2025 01:24:18.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:voodoo_poppet Expected: 2104 Got: 6969
+[07Jun2025 01:24:18.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:receptacle_of_familiar Expected: 2105 Got: 6970
+[07Jun2025 01:24:18.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:receptacle_of_soul Expected: 2106 Got: 6971
+[07Jun2025 01:24:18.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:lollipop Expected: 2107 Got: 6972
+[07Jun2025 01:24:18.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:easter_egg Expected: 2108 Got: 6973
+[07Jun2025 01:24:18.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:easter_egg_food Expected: 2109 Got: 6974
+[07Jun2025 01:24:18.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gift Expected: 2110 Got: 6975
+[07Jun2025 01:24:18.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:bag_of_seeds Expected: 2111 Got: 6976
+[07Jun2025 01:24:18.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:christmas_gift Expected: 2112 Got: 6977
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:villager_gift Expected: 2113 Got: 6978
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:seeker_rod Expected: 2114 Got: 6979
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:christmas_hat Expected: 2115 Got: 6980
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:rabbit_mask Expected: 2116 Got: 6981
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:smoke_ball Expected: 2117 Got: 6982
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:magic_scroll Expected: 2118 Got: 6983
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gemstone_of_familiar Expected: 2119 Got: 6984
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gemstone_of_merchant Expected: 2120 Got: 6985
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gemstone_of_prayer Expected: 2121 Got: 6986
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:gemstone_of_guardian Expected: 2122 Got: 6987
+[07Jun2025 01:24:18.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_preservation Expected: 2123 Got: 6988
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_unstable_intangibility Expected: 2124 Got: 6989
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_feather_fall Expected: 2125 Got: 6990
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_purification Expected: 2126 Got: 6991
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_true_sight Expected: 2127 Got: 6992
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_reach Expected: 2128 Got: 6993
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_lightning_resistance Expected: 2129 Got: 6994
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_frost_resistance Expected: 2130 Got: 6995
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_aquatic_life Expected: 2131 Got: 6996
+[07Jun2025 01:24:18.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:scroll_of_mercy Expected: 2132 Got: 6997
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_0 Expected: 2133 Got: 6998
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_1 Expected: 2134 Got: 6999
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_2 Expected: 2135 Got: 7000
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_3 Expected: 2136 Got: 7001
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_4 Expected: 2137 Got: 7002
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_5 Expected: 2138 Got: 7003
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_6 Expected: 2139 Got: 7004
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_7 Expected: 2140 Got: 7005
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_8 Expected: 2141 Got: 7006
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_9 Expected: 2142 Got: 7007
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_10 Expected: 2143 Got: 7008
+[07Jun2025 01:24:18.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_11 Expected: 2144 Got: 7009
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_12 Expected: 2145 Got: 7010
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_13 Expected: 2146 Got: 7011
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_14 Expected: 2147 Got: 7012
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: tombstone:advancement_15 Expected: 2148 Got: 7013
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:totem_body_casing Expected: 2586 Got: 7014
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:incomplete_totem_body_casing Expected: 2587 Got: 7015
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:incomplete_totem_head Expected: 2588 Got: 7016
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:totem_head Expected: 2589 Got: 7017
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:incomplete_totem_head_casing Expected: 2590 Got: 7018
+[07Jun2025 01:24:18.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:totem_head_casing Expected: 2591 Got: 7019
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:totem_body Expected: 2592 Got: 7020
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:incomplete_totem_body Expected: 2593 Got: 7021
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: totemfactory:inactive_totem Expected: 2594 Got: 7022
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:launchpad Expected: 2705 Got: 7023
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:tnt_missle Expected: 2706 Got: 7024
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:tnt_missle_falling Expected: 2707 Got: 7025
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:tnt_missle_entity_spawn_egg Expected: 2708 Got: 7026
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:coordinates_fast_changer Expected: 2709 Got: 7027
+[07Jun2025 01:24:18.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:napalm_missle Expected: 2710 Got: 7028
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:napalm_entity_spawn_egg Expected: 2711 Got: 7029
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:falling_napalm Expected: 2712 Got: 7030
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:cluster_bomb_entity_spawn_egg Expected: 2713 Got: 7031
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:cluster_bomb Expected: 2714 Got: 7032
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:cluster_bomb_falling Expected: 2715 Got: 7033
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:trapdoorclosed Expected: 2716 Got: 7034
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:trapdooropen Expected: 2717 Got: 7035
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:omega_missle Expected: 2718 Got: 7036
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:omega_missle_falling Expected: 2719 Got: 7037
+[07Jun2025 01:24:18.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:omega_entity_spawn_egg Expected: 2720 Got: 7038
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:omegacore Expected: 2721 Got: 7039
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:test_pvo Expected: 2722 Got: 7040
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:binoculars Expected: 2723 Got: 7041
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:leens Expected: 2724 Got: 7042
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:night_visionleens Expected: 2725 Got: 7043
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:playerlocator Expected: 2726 Got: 7044
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:orbitallasermissile Expected: 2727 Got: 7045
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:orbitallasershoot Expected: 2728 Got: 7046
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:lasermissilebroken Expected: 2729 Got: 7047
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:desecrated_nether_star Expected: 2730 Got: 7048
+[07Jun2025 01:24:18.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:data_transferblock Expected: 2731 Got: 7049
+[07Jun2025 01:24:18.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:console Expected: 2732 Got: 7050
+[07Jun2025 01:24:18.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:data_transferblockrecieve Expected: 2733 Got: 7051
+[07Jun2025 01:24:18.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:omegaexplosion_spawn_egg Expected: 2734 Got: 7052
+[07Jun2025 01:24:18.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:geiger_counter Expected: 2735 Got: 7053
+[07Jun2025 01:24:18.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:effect_missile_falling Expected: 2736 Got: 7054
+[07Jun2025 01:24:18.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:thruster Expected: 2737 Got: 7055
+[07Jun2025 01:24:18.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:navigation_system Expected: 2738 Got: 7056
+[07Jun2025 01:24:18.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:missilelocator Expected: 2739 Got: 7057
+[07Jun2025 01:24:18.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:missilelocatorfound Expected: 2740 Got: 7058
+[07Jun2025 01:24:18.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:manual Expected: 2741 Got: 7059
+[07Jun2025 01:24:18.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:plasma Expected: 2742 Got: 7060
+[07Jun2025 01:24:18.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:omega_empty_entity_spawn_egg Expected: 2743 Got: 7061
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:omega_entity_missile_faliing_empty Expected: 2744 Got: 7062
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:mushroom_explosion_entity_spawn_egg Expected: 2745 Got: 7063
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:light_explosion_spawn_egg Expected: 2746 Got: 7064
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:bullet Expected: 2747 Got: 7065
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:overloaded_redstoneblock Expected: 2748 Got: 7066
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:burned_repeater Expected: 2749 Got: 7067
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:emp_missile Expected: 2750 Got: 7068
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:burned_comparator Expected: 2751 Got: 7069
+[07Jun2025 01:24:18.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:hazmat_armor_armor_helmet Expected: 2752 Got: 7070
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:hazmat_armor_armor_chestplate Expected: 2753 Got: 7071
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:hazmat_armor_armor_leggings Expected: 2754 Got: 7072
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:hazmat_armor_armor_boots Expected: 2755 Got: 7073
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:missile_locatorburned Expected: 2756 Got: 7074
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:player_locator_overloaded Expected: 2757 Got: 7075
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:overloaded_bmd Expected: 2758 Got: 7076
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simplemissiles:empstable Expected: 2759 Got: 7077
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: simple_hardcore_respawn:re_spawner Expected: 3272 Got: 7078
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create_enchantment_industry:disenchanter Expected: 7041 Got: 7079
+[07Jun2025 01:24:18.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create_enchantment_industry:printer Expected: 7042 Got: 7080
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create_enchantment_industry:ink_bucket Expected: 7043 Got: 7081
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create_enchantment_industry:enchanting_guide Expected: 7044 Got: 7082
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create_enchantment_industry:hyper_experience_bottle Expected: 7045 Got: 7083
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: create_enchantment_industry:experience_rotor Expected: 7046 Got: 7084
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:ghostly_shape Expected: 67 Got: 222
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:preservation Expected: 68 Got: 223
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:unstable_intangibility Expected: 69 Got: 224
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:diversion Expected: 70 Got: 225
+[07Jun2025 01:24:18.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:feather_fall Expected: 71 Got: 226
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:purification Expected: 72 Got: 227
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:true_sight Expected: 73 Got: 228
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:reach Expected: 74 Got: 229
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:lightning_resistance Expected: 75 Got: 230
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:frost_resistance Expected: 76 Got: 231
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:bone_shield Expected: 77 Got: 232
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:bait Expected: 78 Got: 233
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:aquatic_life Expected: 79 Got: 234
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:frostbite Expected: 80 Got: 235
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:prayer Expected: 81 Got: 236
+[07Jun2025 01:24:18.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:earthly_garden Expected: 82 Got: 237
+[07Jun2025 01:24:18.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:discretion Expected: 83 Got: 238
+[07Jun2025 01:24:18.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:mercy Expected: 84 Got: 239
+[07Jun2025 01:24:18.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:restoration Expected: 85 Got: 240
+[07Jun2025 01:24:18.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:incurable Expected: 86 Got: 241
+[07Jun2025 01:24:18.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: tombstone:decrepitude Expected: 87 Got: 242
+[07Jun2025 01:24:18.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: simplemissiles:radaway Expected: 119 Got: 243
+[07Jun2025 01:24:18.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: simplemissiles:milk_intolerance Expected: 120 Got: 244
+[07Jun2025 01:24:18.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:magic_use01 Expected: 1947 Got: 3420
+[07Jun2025 01:24:18.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:ghost01 Expected: 1948 Got: 3421
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:ghost02 Expected: 1949 Got: 3422
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: tombstone:ghost03 Expected: 1950 Got: 3423
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: simplemissiles:startingmissle Expected: 2231 Got: 3424
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: simplemissiles:locator_beep Expected: 2232 Got: 3425
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: simplemissiles:gatgetopen Expected: 2233 Got: 3426
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: simplemissiles:distant_explosion Expected: 2234 Got: 3427
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: simplemissiles:omegaexplosion Expected: 2235 Got: 3428
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: simplemissiles:geiger_counter Expected: 2236 Got: 3429
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: simplemissiles:emp_blast Expected: 2237 Got: 3430
+[07Jun2025 01:24:18.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:spectral Expected: 61 Got: 117
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:earthly_garden Expected: 62 Got: 118
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:bait Expected: 63 Got: 119
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:frostbite Expected: 64 Got: 120
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:darkness Expected: 65 Got: 121
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:discretion Expected: 66 Got: 122
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: tombstone:restoration Expected: 67 Got: 123
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: simplemissiles:rad_awayp Expected: 101 Got: 124
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:soulbound Expected: 49 Got: 112
+[07Jun2025 01:24:18.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:magic_siphon Expected: 50 Got: 113
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:plague_bringer Expected: 51 Got: 114
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:curse_of_bones Expected: 52 Got: 115
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:blessing Expected: 53 Got: 116
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:frostbite Expected: 54 Got: 117
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:spectral_bite Expected: 55 Got: 118
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:spectral_conjurer Expected: 56 Got: 119
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:incurable_wounds Expected: 57 Got: 120
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:decrepitude Expected: 58 Got: 121
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:sanctified Expected: 59 Got: 122
+[07Jun2025 01:24:18.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: tombstone:ruthless_strike Expected: 60 Got: 123
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tombstone:grave_guardian Expected: 374 Got: 838
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tombstone:cloud Expected: 375 Got: 839
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tombstone:spectral_bite Expected: 376 Got: 840
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: tombstone:spectral_wolf Expected: 377 Got: 841
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:tnt_missle_entity Expected: 450 Got: 842
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:napalm_entity Expected: 451 Got: 843
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:cluster Expected: 452 Got: 844
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:cluster_bomb_entity Expected: 453 Got: 845
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:omega_entity Expected: 454 Got: 846
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:locatorentity Expected: 455 Got: 847
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:orbitalstrikemissileentity Expected: 456 Got: 848
+[07Jun2025 01:24:18.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:omegaexplosion Expected: 457 Got: 849
+[07Jun2025 01:24:18.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:pvo_entity Expected: 458 Got: 850
+[07Jun2025 01:24:18.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:locator_2 Expected: 459 Got: 851
+[07Jun2025 01:24:18.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:locat_3 Expected: 460 Got: 852
+[07Jun2025 01:24:18.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:omega_empty_entity Expected: 461 Got: 853
+[07Jun2025 01:24:18.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:mushroom_explosion_entity Expected: 462 Got: 854
+[07Jun2025 01:24:18.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:light_explosion Expected: 463 Got: 855
+[07Jun2025 01:24:18.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:broken_locator_ant Expected: 464 Got: 856
+[07Jun2025 01:24:18.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: simplemissiles:empm_inair Expected: 465 Got: 857
+[07Jun2025 01:24:18.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:painting_variant: Object did not get ID it asked for. Name: tombstone:crow Expected: 33 Got: 41
+[07Jun2025 01:24:24.463] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/karo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23277!/assets/.mcassetsroot' uses unexpected schema
+[07Jun2025 01:24:24.464] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/karo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23277!/data/.mcassetsroot' uses unexpected schema
+[07Jun2025 01:24:24.611] [main/INFO] [com.simibubi.create.Create/]: Created 442 recipes which will be injected into the game
+[07Jun2025 01:24:24.624] [main/INFO] [com.simibubi.create.Create/]: Created 42 tags which will be injected into the game
+[07Jun2025 01:24:24.714] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:simpleshops
+[07Jun2025 01:24:24.714] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:revive_hardcore_players
+[07Jun2025 01:24:24.805] [main/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 48 ms
+[07Jun2025 01:24:27.656] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[07Jun2025 01:24:27.813] [Worker-Main-3/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.6.jar
+[07Jun2025 01:24:27.921] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag legendary_monsters:ancient_stronghold_biomes as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.9.4 MC 1.20.1.jar)
+[07Jun2025 01:24:27.926] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag integrated_api:collections/any_taiga as it is missing following references: #repurposed_structures:collections/taigas (from integrated_api-1.5.3+1.20.1-forge.jar)
+[07Jun2025 01:24:27.928] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cuffed:can_reinforce_padlock as it is missing following references: minecraft:diamond_ingot (from Cuffed-1.20.1-1.3.9.jar)
+[07Jun2025 01:24:28.031] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:overworld_carver_replaceables as it is missing following references: createteleporters:deleted_mod_element (from createteleporters2.3-1.20.1.jar)
+[07Jun2025 01:24:28.035] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexscaves:primordial_caves_base_blocks as it is missing following references: #minecraft:overworld_carver_replaceables (from alexscaves-2.0.2.jar)
+[07Jun2025 01:24:28.082] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexscaves:water_carver_replaceables as it is missing following references: #alexscaves:primordial_caves_base_blocks (from alexscaves-2.0.2.jar), 
+	#minecraft:overworld_carver_replaceables (from alexscaves-2.0.2.jar)
+[07Jun2025 01:24:29.190] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplemissiles:blocks/burned_repeater
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:redstone_wire'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Jun2025 01:24:29.988] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[07Jun2025 01:24:29.988] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[07Jun2025 01:24:29.988] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[07Jun2025 01:24:29.989] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[07Jun2025 01:24:30.031] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe realisticforgingores:ironsledgehammerrecipe
+com.google.gson.JsonSyntaxException: Unknown item 'realisticforgingores:deleted_mod_element'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:24:30.050] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[07Jun2025 01:24:30.054] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe realisticforgingores:sledgehammerrecipe
+com.google.gson.JsonSyntaxException: Unknown item 'realisticforgingores:deleted_mod_element'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:24:30.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[07Jun2025 01:24:30.131] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:24:30.145] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:24:30.190] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe simpleplanes:plane_book as it's serializer returned null
+[07Jun2025 01:24:30.206] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:netherite_ingot
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:164) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:24:30.234] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[07Jun2025 01:24:30.236] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:purified_soul
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:brewing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:24:30.252] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cuffed:information_booklet
+com.google.gson.JsonSyntaxException: Unknown item 'cuffed:information_booklet'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23277!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2025 01:24:30.271] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 46 recipes
+[07Jun2025 01:24:30.347] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:smelting_iron_part_advancement: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[07Jun2025 01:24:30.355] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:first_drawing: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[07Jun2025 01:24:30.355] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[07Jun2025 01:24:30.377] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:three_iron_scraps: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[07Jun2025 01:24:30.383] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:assembling_iron_for_sword: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[07Jun2025 01:24:30.413] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:breaking_diamond_advancement: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[07Jun2025 01:24:30.423] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:assembling_iron_for_armor: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[07Jun2025 01:24:30.473] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 3993 recipe advancements
+[07Jun2025 01:24:30.505] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement realisticforgingores:craft_iron_sword: Task Advancement{parentId=realisticforgingores:assembling_iron_for_sword, display=net.minecraft.advancements.DisplayInfo@3e0e2419, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4997e731}, criteria={craft_iron_sword_0=net.minecraft.advancements.Criterion@1418d87e}, requirements=[[craft_iron_sword_0]], sends_telemetry_event=false}
+[07Jun2025 01:24:30.505] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement realisticforgingores:craft_iron_armor: Task Advancement{parentId=realisticforgingores:first_drawing, display=net.minecraft.advancements.DisplayInfo@476730a9, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4997e731}, criteria={craft_iron_armor_0=net.minecraft.advancements.Criterion@252d1390}, requirements=[[craft_iron_armor_0]], sends_telemetry_event=false}
+[07Jun2025 01:24:30.506] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement realisticforgingores:crafting_big_pan_advancement: Task Advancement{parentId=realisticforgingores:breaking_diamond_advancement, display=net.minecraft.advancements.DisplayInfo@673b0b20, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4997e731}, criteria={crafting_big_pan_advancement_0=net.minecraft.advancements.Criterion@2a4725c4}, requirements=[[crafting_big_pan_advancement_0]], sends_telemetry_event=false}
+[07Jun2025 01:24:30.506] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement realisticforgingores:crafting_diamond_sword_advancement: Task Advancement{parentId=realisticforgingores:deleted_mod_element, display=net.minecraft.advancements.DisplayInfo@6d22bbd5, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4997e731}, criteria={crafting_diamond_sword_advancement_0=net.minecraft.advancements.Criterion@7ed8cab0}, requirements=[[crafting_diamond_sword_advancement_0]], sends_telemetry_event=false}
+[07Jun2025 01:24:30.506] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1097 advancements
+[07Jun2025 01:24:30.527] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 6 temperature consumables
+[07Jun2025 01:24:30.530] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 43 temperature blocks
+[07Jun2025 01:24:30.533] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 80 temperature items
+[07Jun2025 01:24:30.535] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 7 temperature biomes
+[07Jun2025 01:24:30.537] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 10 temperature fuel items
+[07Jun2025 01:24:30.538] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 3 temperature dimensions
+[07Jun2025 01:24:30.539] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 1 temperature mounts
+[07Jun2025 01:24:30.539] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 0 temperature origins
+[07Jun2025 01:24:30.545] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 25 thirst consumables
+[07Jun2025 01:24:30.548] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 5 thirst blocks
+[07Jun2025 01:24:30.551] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 22 body parts damage sources
+[07Jun2025 01:24:30.553] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 6 body healing consumables
+[07Jun2025 01:24:30.567] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 14 curio slots
+[07Jun2025 01:24:30.577] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[07Jun2025 01:24:30.603] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[07Jun2025 01:24:30.603] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[07Jun2025 01:24:30.603] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[07Jun2025 01:24:30.603] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[07Jun2025 01:24:30.604] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 3 patches
+[07Jun2025 01:24:30.604] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/plant_seed with 1 patches
+[07Jun2025 01:24:30.604] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 2 patches
+[07Jun2025 01:24:30.604] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[07Jun2025 01:24:30.605] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[07Jun2025 01:24:30.605] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[07Jun2025 01:24:30.614] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[07Jun2025 01:24:30.637] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:overworld_carver_replaceables
+[07Jun2025 01:24:30.679] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[07Jun2025 01:24:36.262] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[07Jun2025 01:24:36.311] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[07Jun2025 01:24:36.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Jun2025 01:24:36.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Jun2025 01:24:36.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Jun2025 01:24:36.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Jun2025 01:24:36.904] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Jun2025 01:24:36.944] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Jun2025 01:24:37.033] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Jun2025 01:24:37.033] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Jun2025 01:24:37.033] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Jun2025 01:24:37.034] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Jun2025 01:24:37.056] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cuffed-server.toml is not correct. Correcting
+[07Jun2025 01:24:37.057] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cuffed Config.Anchoring Settings.Max Chain Length was corrected from 5.0 to its default, 5.0. 
+[07Jun2025 01:24:37.057] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cuffed Config.Anchoring Settings.Suffocation Length was corrected from 12.0 to its default, 12.0. 
+[07Jun2025 01:24:37.060] [Thread-4/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/karo/servidor_minecraft/./world/serverconfig/cuffed-server.toml is not correct. Correcting
+[07Jun2025 01:24:37.062] [Thread-4/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/karo/servidor_minecraft/./world/serverconfig/cuffed-server.toml is not correct. Correcting
+[07Jun2025 01:24:37.082] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/midnight-server.toml is not correct. Correcting
+[07Jun2025 01:24:37.084] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chanceMidnightLightningCreatesRift was corrected from 0.3 to its default, 0.3. 
+[07Jun2025 01:24:37.094] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/create_enchantment_industry-server.toml is not correct. Correcting
+[07Jun2025 01:24:37.095] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disenchanterTankCapacity was corrected from null to its default, 1000. 
+[07Jun2025 01:24:37.096] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copierTankCapacity was corrected from null to its default, 4000. 
+[07Jun2025 01:24:37.098] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blazeEnchanterTankCapacity was corrected from null to its default, 2000. 
+[07Jun2025 01:24:37.099] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxHyperEnchantingLevelExtension was corrected from null to its default, 2. 
+[07Jun2025 01:24:37.100] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key deployerXpDropChance was corrected from null to its default, 1.0. 
+[07Jun2025 01:24:37.100] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enableHyperEnchant was corrected from null to its default, true. 
+[07Jun2025 01:24:37.101] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantByBlazeEnchanterCostCoefficient was corrected from null to its default, 1.0. 
+[07Jun2025 01:24:37.102] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hyperEnchantByBlazeEnchanterCostCoefficient was corrected from null to its default, 1.0. 
+[07Jun2025 01:24:37.102] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copyEnchantedBookCostCoefficient was corrected from null to its default, 1.0. 
+[07Jun2025 01:24:37.104] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copyEnchantedBookWithHyperExperienceCostCoefficient was corrected from null to its default, 1.0. 
+[07Jun2025 01:24:37.105] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copyWrittenBookCostPerPage was corrected from null to its default, 5. 
+[07Jun2025 01:24:37.106] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copyNameTagCost was corrected from null to its default, 7. 
+[07Jun2025 01:24:37.106] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copyTrainScheduleCost was corrected from null to its default, 10. 
+[07Jun2025 01:24:37.107] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copyClipboardCost was corrected from null to its default, 10. 
+[07Jun2025 01:24:37.108] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crushingWheelDropExpRate was corrected from null to its default, 0.30000001192092896. 
+[07Jun2025 01:24:37.109] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crushingWheelDropExpScale was corrected from null to its default, 0.3400000035762787. 
+[07Jun2025 01:24:37.110] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copyingWrittenBookAlwaysGetOriginalVersion was corrected from null to its default, true. 
+[07Jun2025 01:24:37.426] [Server thread/INFO] [Framework/]: Loading server configs...
+[07Jun2025 01:24:37.442] [Server thread/INFO] [zeta/]: Server starting, accepting filewatcher changes for zeta's config
+[07Jun2025 01:24:37.444] [Server thread/INFO] [quark-zeta/]: Server starting, accepting filewatcher changes for quark's config
+[07Jun2025 01:24:37.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Jun2025 01:24:39.526] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.alexander.rootoffear.entities.Wilted from class com.alexander.rootoffear.entities.LightExtinguisher
+[07Jun2025 01:24:39.527] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.alexander.rootoffear.entities.Wilted from class com.alexander.rootoffear.entities.LightExtinguisher
+[07Jun2025 01:24:39.528] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.alexander.rootoffear.entities.Wilted from class com.alexander.rootoffear.entities.LightExtinguisher
+[07Jun2025 01:24:45.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Jun2025 01:24:48.279] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:48.288] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:48.365] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:48.379] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:48.393] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:48.401] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:48.405] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:48.800] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:49.198] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2025 01:24:49.772] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[07Jun2025 01:24:50.218] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[07Jun2025 01:24:50.720] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[07Jun2025 01:24:51.555] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[07Jun2025 01:24:51.698] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[07Jun2025 01:24:52.031] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6834 ms
+[07Jun2025 01:24:52.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.983s)! For help, type "help"
+[07Jun2025 01:24:52.103] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Jun2025 01:24:52.105] [Server thread/INFO] [cuffed/]: Running server setup for Cuffed
+[07Jun2025 01:24:53.277] [Server thread/INFO] [dev.corgitaco.enhancedcelestials.EnhancedCelestials/]: Possible lunar events for dimension "minecraft:overworld" are [enhancedcelestials:super_blood_moon, enhancedcelestials:blood_moon, enhancedcelestials:chaos_moon, enhancedcelestials:blue_moon, enhancedcelestials:super_harvest_moon, enhancedcelestials:super_moon, enhancedcelestials:super_chaos_moon, enhancedcelestials:super_blue_moon, enhancedcelestials:black_moon, enhancedcelestials:harvest_moon, enhancedcelestials:extreme_zombie_moon].
+[07Jun2025 01:24:55.179] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[07Jun2025 01:27:57.978] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@36fb0df5[id=<null>,name=fablex39,properties={},legacy=false] (/127.166.196.199:34961) lost connection: Disconnected
